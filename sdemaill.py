@@ -7,7 +7,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler
 
 # ================= CONFIG =================
-BOT_TOKEN = os.getenv("8894944140:AAGk1yoOIZowX9DMtKxBNlPs7gqX6tW6AZQ")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN environment variable is not set.")
 API_URL = "http://51.20.5.41:5000/blacklist"
